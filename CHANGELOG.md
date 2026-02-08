@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.2.0] - 2026-02-08
+
+### Added
+- Databuddy SDK integration for analytics and data tracking
+- Databuddy component in root layout
+
 ## [0.1.1] - 2026-02-08
 
 ### Added

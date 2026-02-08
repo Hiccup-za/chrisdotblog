@@ -4,6 +4,9 @@
   "workspaces": {
     "": {
       "name": "chrisdotblog",
+      "dependencies": {
+        "@databuddy/sdk": "^2.3.29",
+      },
       "devDependencies": {
         "turbo": "latest",
         "typescript": "^5",
@@ -13,6 +16,7 @@
       "name": "@chrisdotblog/web",
       "version": "0.0.0",
       "dependencies": {
+        "@databuddy/sdk": "^2.3.29",
         "@phosphor-icons/react": "^2.1.10",
         "next": "latest",
         "react": "^18",
@@ -68,6 +72,8 @@
     "@babel/types": ["@babel/types@7.28.6", "", { "dependencies": { "@babel/helper-string-parser": "^7.27.1", "@babel/helper-validator-identifier": "^7.28.5" } }, "sha512-0ZrskXVEHSWIqZM/sQZ4EV3jZJXRkio/WCxaqKZP1g//CEWEPSfeZFcms4XeKBCHU0ZKnIkdJeU/kF+eRp5lBg=="],
 
     "@chrisdotblog/web": ["@chrisdotblog/web@workspace:apps/web"],
+
+    "@databuddy/sdk": ["@databuddy/sdk@2.3.29", "", { "peerDependencies": { "@ai-sdk/provider": "^2.0.0", "ai": "^5.0.51", "msw": "^2.11.5", "react": ">=18", "tokenlens": "^2.0.0-alpha.3", "vue": ">=3" }, "optionalPeers": ["@ai-sdk/provider", "ai", "msw", "react", "tokenlens", "vue"] }, "sha512-GuqlPsrgxYpmICstsVEpr6FFWHCkcTW5sgdKgPmCXfJyzdOUXRn17HkGEiuZKYzbADSxx1x9dXMCL/40JP3p2g=="],
 
     "@emnapi/core": ["@emnapi/core@1.8.1", "", { "dependencies": { "@emnapi/wasi-threads": "1.1.0", "tslib": "^2.4.0" } }, "sha512-AvT9QFpxK0Zd8J0jopedNm+w/2fIzvtPKPjqyw9jwvBaReTTqPBk9Hixaz7KbjimP+QNz605/XnjFcDAL2pqBg=="],
 

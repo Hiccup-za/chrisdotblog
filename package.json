@@ -1,6 +1,6 @@
 {
   "name": "chrisdotblog",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "private": true,
   "workspaces": [
     "apps/*",
@@ -20,5 +20,8 @@
   "packageManager": "bun@1.3.6",
   "engines": {
     "node": ">=18"
+  },
+  "dependencies": {
+    "@databuddy/sdk": "^2.3.29"
   }
 }

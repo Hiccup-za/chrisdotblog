@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from 'next'
 import './globals.css'
 import { ThemeProvider } from '@/contexts/ThemeContext'
+import { Databuddy } from '@databuddy/sdk/react'
 
 export const metadata: Metadata = {
   title: 'Chris Blog',
@@ -42,6 +43,7 @@ export default function RootLayout({
       </head>
       <body>
         <ThemeProvider>{children}</ThemeProvider>
+        <Databuddy clientId="7609554e-2df2-4d76-a991-2930db98d3ec" />
       </body>
     </html>
   )

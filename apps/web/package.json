@@ -10,6 +10,7 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
+    "@databuddy/sdk": "^2.3.29",
     "@phosphor-icons/react": "^2.1.10",
     "next": "latest",
     "react": "^18",
