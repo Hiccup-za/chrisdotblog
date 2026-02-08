@@ -5,6 +5,9 @@ import { ThemeProvider } from '@/contexts/ThemeContext'
 export const metadata: Metadata = {
   title: 'Chris Blog',
   description: 'Personal portfolio and blog',
+  icons: {
+    icon: '/web-favicon.png',
+  },
 }
 
 export const viewport: Viewport = {
