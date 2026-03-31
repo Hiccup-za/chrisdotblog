@@ -70,6 +70,11 @@ export default function Projects({ projects }: ProjectsProps) {
                             {displayUrl(project.url)}
                           </span>
                         )}
+                        {project.comingSoon && (
+                          <span className="text-xs font-medium text-mutedForeground bg-muted px-2 py-0.5 rounded-full flex-shrink-0">
+                            Coming soon
+                          </span>
+                        )}
                       </div>
                       <p className="text-base leading-relaxed text-mutedForeground">
                         {project.description}
@@ -96,6 +101,11 @@ export default function Projects({ projects }: ProjectsProps) {
                         <h3 className="text-xl font-medium text-foreground">
                           {project.title}
                         </h3>
+                        {project.comingSoon && (
+                          <span className="text-xs font-medium text-mutedForeground bg-muted px-2 py-0.5 rounded-full flex-shrink-0">
+                            Coming soon
+                          </span>
+                        )}
                       </div>
                       <p className="text-base leading-relaxed text-mutedForeground">
                         {project.description}

@@ -10,6 +10,7 @@ export interface Project {
   url?: string
   tags?: string[]
   logo?: string
+  comingSoon?: boolean
 }
 
 export interface ContentConfig {
@@ -49,6 +50,18 @@ export const content: ContentConfig = {
       description: 'Skills containing commands and best practises for engineering teams.',
       url: 'https://qa-engineering-skills.vercel.app/',
       logo: '/qae-skills.png',
+    },
+    {
+      title: 'Icon Studio',
+      description: 'Create beautiful app icons using your favourite icon libraries.',
+      logo: '/icon-studio.png',
+      comingSoon: true,
+    },
+    {
+      title: 'Glass',
+      description: 'AI writes tests. Glass sees through them.',
+      url: 'https://glasswaitlist.vercel.app/',
+      logo: '/glass-logo.png',
     },
   ],
 }
