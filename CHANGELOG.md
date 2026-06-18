@@ -7,6 +7,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.2.2] - 2026-06-18
+
+### Added
+- Burn project entry (macOS menu bar app for Claude usage) with app icon
+
+### Changed
+- Bio subtext now ends on "Founder" instead of "Founder of OmniLens"
+
+### Removed
+- QA Engineering Skills, Icon Studio, and Glass project entries and their logos
+
 ## [0.2.0] - 2026-02-08
 
 ### Added

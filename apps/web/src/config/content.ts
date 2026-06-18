@@ -20,7 +20,7 @@ export interface ContentConfig {
 }
 
 export const content: ContentConfig = {
-  about: `Lead QA Engineer, Developer and Founder of OmniLens.`,
+  about: `Lead QA Engineer, Developer and Founder.`,
   socialLinks: [
     {
       name: 'LinkedIn',
@@ -46,22 +46,10 @@ export const content: ContentConfig = {
       logo: '/omnilens.jpeg',
     },
     {
-      title: 'QA Engineering Skills',
-      description: 'Skills containing commands and best practises for engineering teams.',
-      url: 'https://qa-engineering-skills.vercel.app/',
-      logo: '/qae-skills.png',
-    },
-    {
-      title: 'Icon Studio',
-      description: 'Create beautiful app icons using your favourite icon libraries.',
-      logo: '/icon-studio.png',
-      comingSoon: true,
-    },
-    {
-      title: 'Glass',
-      description: 'AI writes tests. Glass sees through them.',
-      url: 'https://glasswaitlist.vercel.app/',
-      logo: '/glass-logo.png',
+      title: 'Burn',
+      description: 'A menu bar app for macOS that shows your Claude usage.',
+      url: 'https://burn-waitlist.vercel.app/',
+      logo: '/burn-logo.png',
     },
   ],
 }
